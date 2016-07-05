@@ -1,0 +1,19 @@
+{
+  "name": "juice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "juice.js",
+  "scripts": {
+    "test": "mocha ./tests/juice-spec.js",
+    "build": "uglifyjs --c --m -r 'juice' --o dist/juice.min.js -- src/juice.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^9.4.0",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0"
+  },
+  "keywords": [],
+  "author": "@keyserfaty",
+  "license": "ISC"
+}
