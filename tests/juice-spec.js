@@ -57,12 +57,12 @@ describe('juice', function() {
     });
   });
 
-  describe('createElementWithClass', function() {
+  describe('createElementWithAttrs', function() {
     it('should create a div element with two attributes', function () {
       /**
        * Create basic elements for testing
        */
-      var element = juice.createElementWithClass('div', {
+      var element = juice.createElementWithAttrs('div', {
         'class': 'test',
         'id': 'test',
       });
