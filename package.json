@@ -1,7 +1,7 @@
 {
-  "name": "juice",
+  "name": "vanilla-juice",
   "version": "1.0.0",
-  "description": "",
+  "description": "An easier way to handle the UI with vanilla js",
   "main": "juice.js",
   "scripts": {
     "test": "mocha ./tests/juice-spec.js",
