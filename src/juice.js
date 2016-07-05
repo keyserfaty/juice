@@ -8,7 +8,9 @@
   }
 })(this, function() {
   'use strict';
-  
+
+  var doc = document;
+
   var juice = {};
 
   /**
@@ -46,7 +48,7 @@
    */
   juice.createElementWithClass = function (tag, attrs) {
     var node = doc.createElement(tag);
-    setAttributes(node, attrs);
+    juice.setAttributes(node, attrs);
     return node;
   };
 
