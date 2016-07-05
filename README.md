@@ -22,14 +22,14 @@ var container = juice.createElementWithAttrs('div', {
 };
 
 // Lets you set any number of attributes to a DOM element
-var otherContainer = container.setAttributes({
+var otherContainer = juice.setAttributes(container, {
 	'class': 'other-container',
 	'name': 'my-other-container',
 });
 
 // Also lets you append any number of children elements to a container element
 // You first define a container element where the children will be appended
-var parent = appendChildren(container);
+var parent = juice.appendChildren(container);
 // And then attach to that element all the children you want
 parent(child1, child2, child3);
 ```
