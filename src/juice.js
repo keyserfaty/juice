@@ -8,7 +8,7 @@
   }
 })(this, function() {
   'use strict';
-  
+
   var juice = {};
 
   /**
