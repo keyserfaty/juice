@@ -4,7 +4,7 @@
   } else if (typeof exports === 'object') {
     module.exports = factory;
   } else {
-    root.socialButton = factory();
+    root.juice = factory();
   }
 })(this, function() {
   'use strict';
