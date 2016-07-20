@@ -1,6 +1,6 @@
 {
   "name": "vanilla-juice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An easier way to handle the UI with vanilla js",
   "main": "juice.js",
   "scripts": {
