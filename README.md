@@ -1,7 +1,7 @@
 Juice
 =====
 
-[![npm version](https://badge.fury.io/js/vanilla-juice.svg)](https://badge.fury.io/js/vanilla-juice)
+[![npm version](https://badge.fury.io/js/vanilla-juice.svg)](https://badge.fury.io/js/vanilla-juice) [![npm](https://img.shields.io/npm/dt/express.svg?maxAge=2592000)]()
 
 Juice lets you handle DOM operations a little more easily with vanilla.js. It creates three functions: `createElementWithAttrs`, `setAttributes` and `appendChildren`.
 
